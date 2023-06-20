@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding: 10px 20px;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    color: #ffff;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav h2 img{
+     width: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li a{
+     text-decoration: none;
+     color: #ffff;
+     font-weight: 100;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)), url("pexels-pixabay-302769.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 p{
+    margin-top: 10px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-1 button{
+    margin-top: 20px;
+     width: 30%;
+     justify-content: center;
+     align-items: center;
+     background-color: darkorange;
+     color: #fff;
+     outline: none;
+     padding: 5px;
+     margin-left: 120px;
+     border: none;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+     color: #fff;
+     font-family: monospace;
+}
+@media (max-width:750){
+    header{
+        padding: 0 10px;
+        position: fixed;
+    }
+}
+@media(max-width:450){
+    header{
+        padding: 0 0 5px 10px;
+     position: fixed;   
+    }
+    img{
+        margin: 10px;
+    }
+    .section-1 p{
+        font-weight: 100;
+    }
+}
