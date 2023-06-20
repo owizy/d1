@@ -1,0 +1,6 @@
+let math=document.querySelector('#math')
+let eng=document.querySelector('#eng')
+let phy=document.querySelector("#phy")
+let chem=document.querySelector("#chem")
+let bio=document.querySelector("#bio")
+let submit=document.querySelector(".submit")
